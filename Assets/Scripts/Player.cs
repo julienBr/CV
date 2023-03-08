@@ -8,23 +8,22 @@ public class Player : MonoBehaviour
     private NavMeshAgent _agent;
     private Animator _animator;
     private Vector3 target;
+    private int _floorLayer;
 
     private void Awake()
     {
         _camera = Camera.main;
         _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
+        _floorLayer = LayerMask.NameToLayer("Floor");
     }
 
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0)) Move();
-    }
+    private void Update() { if (Input.GetMouseButtonDown(0)) Move(); }
 
     private void Move()
     {
         Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.gameObject.layer.CompareTo(_floorLayer) == 0)
         {
             target = hit.point;
             StartCoroutine(Walk());
