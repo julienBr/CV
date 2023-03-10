@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c57afb5a3d834f4aa36bc48769273cb, type: 3}
   m_Name: English
   m_EditorClassIdentifier: 
-  index: 0
+  index: 1
   sentences:
   - Hi my name's Julien,
   - I hope you're all right!
@@ -41,3 +41,6 @@ MonoBehaviour:
   - Full screen
   - Screen resolution
   - Close
+  - Button 1
+  - Button 2
+  - Button 3

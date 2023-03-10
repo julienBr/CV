@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c57afb5a3d834f4aa36bc48769273cb, type: 3}
   m_Name: French
   m_EditorClassIdentifier: 
-  index: 0
+  index: 1
   sentences:
   - Bonjour je m'appelle Julien,
   - "J'esp\xE8re que vous \xE7a va !"
@@ -41,3 +41,6 @@ MonoBehaviour:
   - "Plein \xE9cran"
   - "R\xE9solution \xE9cran"
   - Fermer
+  - Bouton 1
+  - Bouton 2
+  - Bouton 3

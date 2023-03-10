@@ -3101,6 +3101,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 108157655974722990, guid: f6d43d1fedd4aff43b4a9bae73fe71ae, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108157655974722990, guid: f6d43d1fedd4aff43b4a9bae73fe71ae, type: 3}
       propertyPath: m_BounceIntensity
       value: 0
       objectReference: {fileID: 0}
@@ -3550,6 +3554,10 @@ PrefabInstance:
     - target: {fileID: 108157655974722990, guid: f6d43d1fedd4aff43b4a9bae73fe71ae, type: 3}
       propertyPath: m_Intensity
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 108157655974722990, guid: f6d43d1fedd4aff43b4a9bae73fe71ae, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108157655974722990, guid: f6d43d1fedd4aff43b4a9bae73fe71ae, type: 3}
       propertyPath: m_BounceIntensity
@@ -9103,6 +9111,9 @@ MonoBehaviour:
   - {fileID: 2015443852}
   - {fileID: 1170087056}
   - {fileID: 1085055722}
+  - {fileID: 1338416525}
+  - {fileID: 1401263163}
+  - {fileID: 1026798631}
 --- !u!1 &1306574043
 GameObject:
   m_ObjectHideFlags: 0
