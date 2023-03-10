@@ -54,8 +54,15 @@ public class GameManager : MonoBehaviour
     public void OpenSettingsWindow() { _settingsWindow.SetActive(true); }
     
     public void CloseSettingsWindow() { _settingsWindow.SetActive(false); }
-    
-    public void QuitGame() { Application.Quit(); }
+
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+		    Application.Quit();
+        #endif
+    }
 
     private void OpenCommandWindow()
     {
@@ -74,8 +81,8 @@ public class GameManager : MonoBehaviour
     }
     
     private void CloseQuestWindow() { StartCoroutine(MoveOut("QuestWindow")); }
-    
-    IEnumerator MoveOut(string window)
+
+    private IEnumerator MoveOut(string window)
     {
         switch (window)
         {
