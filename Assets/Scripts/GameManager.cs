@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _questWindow;
     [SerializeField] private GameObject _commandWindow;
 
+    public delegate void LanguageEvent();
+    public static event LanguageEvent ChangeLanguage;
+    
     private bool _gamePaused;
     private bool _commandActive;
     private bool _questActive;
@@ -103,11 +106,7 @@ public class GameManager : MonoBehaviour
 
     public void ChooseLanguage(int index)
     {
-        _datas.actualLanguage = index switch
-        {
-            0 => _datas.languageList[0],
-            1 => _datas.languageList[1],
-            _ => _datas.actualLanguage
-        };
+        _datas.actualLanguage = index == 0 ? _datas.languageList[0] : _datas.languageList[1];
+        ChangeLanguage?.Invoke();
     }
 }

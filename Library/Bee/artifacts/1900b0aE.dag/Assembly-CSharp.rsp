@@ -361,6 +361,7 @@
 "Assets/Scripts/AppDatas.cs"
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameUI.cs"
 "Assets/Scripts/Language.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/SettingsWindow.cs"

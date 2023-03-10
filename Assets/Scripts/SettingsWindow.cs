@@ -5,8 +5,10 @@ using UnityEngine.Audio;
 
 public class SettingsWindow : MonoBehaviour
 {
+    [Header("Settings")]
     public AudioMixer audioMixer;
     public TMP_Dropdown resolutionDropdown;
+    
     private Resolution[] resolutions;
     
     public void Start()

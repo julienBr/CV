@@ -5,6 +5,9 @@ using UnityEngine;
 public class Language : ScriptableObject
 {
     public int index;
+    
     [TextArea(3, 10)]
-    public string[] sentences;
+    public List<string> sentences;
+
+    public List<string> listToTranslate;
 }

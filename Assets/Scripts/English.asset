@@ -12,7 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c57afb5a3d834f4aa36bc48769273cb, type: 3}
   m_Name: English
   m_EditorClassIdentifier: 
-  index: 1
+  index: 0
   sentences:
   - Hi my name's Julien,
   - I hope you're all right!
+  listToTranslate:
+  - Continue
+  - Quests
+  - Quest 1
+  - Quest 2
+  - Quest 3
+  - Quest 4
+  - Quest 5
+  - Quest 6
+  - Quest 7
+  - Help -> Escape
+  - Controllers
+  - Pause Menu
+  - Quests Menu
+  - Left click to move
+  - Interact
+  - Game Paused
+  - Resume
+  - Settings
+  - Quit the game
+  - Settings
+  - Volume
+  - Full screen
+  - Screen resolution
+  - Close

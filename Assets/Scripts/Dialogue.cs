@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private AppDatas _datas;
-    [SerializeField] private TextMeshProUGUI _textComponent;
+    [SerializeField] private TMP_Text _textComponent;
     [SerializeField] private float _textSpeed;
     [SerializeField] private Player _player;
     
     private Animator _animator;
+    private bool isRetyped;
 
+    private void OnEnable() { GameManager.ChangeLanguage += RetypeSentence; }
+
+    private void OnDisable() { GameManager.ChangeLanguage -= RetypeSentence; }
+    
     private void Start()
     {
         _datas.actualLanguage.index = 0;
@@ -32,7 +38,7 @@ public class Dialogue : MonoBehaviour
 
     private void NextSentence()
     {
-        if (_datas.actualLanguage.index < _datas.actualLanguage.sentences.Length -1)
+        if (_datas.actualLanguage.index < _datas.actualLanguage.sentences.Count - 1)
         {
             _datas.actualLanguage.index++;
             _textComponent.text = string.Empty;
@@ -43,7 +49,11 @@ public class Dialogue : MonoBehaviour
 
     private IEnumerator TypeSentence()
     {
-        if(_datas.actualLanguage.index == 0) yield return new WaitForSeconds(1.1f);
+        if (_datas.actualLanguage.index == 0)
+        {
+            if (!isRetyped) yield return new WaitForSeconds(1.1f);
+            else yield return null;
+        }
         foreach (char c in _datas.actualLanguage.sentences[_datas.actualLanguage.index])
         {
             _textComponent.text += c;
@@ -59,6 +69,15 @@ public class Dialogue : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    private void RetypeSentence()
+    {
+        StopAllCoroutines();
+        isRetyped = true;
+        _textComponent.text = string.Empty;
+        StartCoroutine(TypeSentence());
+        isRetyped = false;
+    }
+    
     public void ContinueButton()
     {
         if (_textComponent.text == _datas.actualLanguage.sentences[_datas.actualLanguage.index]) NextSentence();

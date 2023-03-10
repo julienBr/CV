@@ -12,7 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c57afb5a3d834f4aa36bc48769273cb, type: 3}
   m_Name: French
   m_EditorClassIdentifier: 
-  index: 1
+  index: 0
   sentences:
   - Bonjour je m'appelle Julien,
   - "J'esp\xE8re que vous \xE7a va !"
+  listToTranslate:
+  - Continuer
+  - "Qu\xEAtes"
+  - "Qu\xEAte 1"
+  - "Qu\xEAte 2"
+  - "Qu\xEAte 3"
+  - "Qu\xEAte 4"
+  - "Qu\xEAte 5"
+  - "Qu\xEAte 6"
+  - "Qu\xEAte 7"
+  - "Aide -> \xC9chap"
+  - Commandes
+  - Menu Pause
+  - "Menu Qu\xEAtes"
+  - "Clique gauche pour se d\xE9placer"
+  - Interagir
+  - Jeu en Pause
+  - Reprendre
+  - Options
+  - Quitter le jeu
+  - Options
+  - Volume
+  - "Plein \xE9cran"
+  - "R\xE9solution \xE9cran"
+  - Fermer

@@ -5,5 +5,6 @@ using UnityEngine;
 public class AppDatas : ScriptableObject
 {
     public Language actualLanguage;
+    
     public List<Language> languageList;
 }
