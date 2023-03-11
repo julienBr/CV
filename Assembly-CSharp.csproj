@@ -57,12 +57,14 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Sprites\UI" />
+     <Folder Include="Assets\Animations\Julien" />
      <Folder Include="Assets\Materials\Ground" />
      <Folder Include="Assets\Materials\BedRoom\Walls\Walls" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Animations\DialogueBox" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Scenes\Room" />
      <Folder Include="Assets\Prefabs" />
@@ -71,6 +73,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Prefabs\BedRoom" />
      <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\Animations\CommandWindow" />
      <Folder Include="Assets\Skybox" />
      <Folder Include="Assets\Prefabs\Terrain" />
      <Folder Include="Assets\Materials\BedRoom\Walls\Walls\Floor" />
@@ -94,6 +97,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Materials\BedRoom\Walls" />
      <Folder Include="Assets\Prefabs\BedRoom\Models" />
+     <Folder Include="Assets\Animations\QuestWindow" />
      <Folder Include="Assets\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Sprites\Languages" />
