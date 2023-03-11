@@ -23,6 +23,11 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        MyInputs();
+    }
+
+    private void MyInputs()
+    {
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (_gamePaused) GameResume();
