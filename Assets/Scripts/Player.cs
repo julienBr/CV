@@ -18,7 +18,10 @@ public class Player : MonoBehaviour
         _floorLayer = LayerMask.NameToLayer("Floor");
     }
 
-    private void Update() { if (Input.GetMouseButtonDown(0)) Move(); }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) Move();
+    }
 
     private void Move()
     {
