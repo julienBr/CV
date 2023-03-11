@@ -2887,7 +2887,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.016666668
+  m_VoxelSize: 0.1
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 3ab94671f7eb38046b6777f09bd18e7e, type: 2}
   m_BuildHeightMesh: 0
@@ -7756,7 +7756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b30bb654afa42174596f3683b8e2b7a8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b808d14dd51b6a34da662a3116e192f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9685,7 +9685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9908ca9777028564c9a502a5f58da7a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d44cd2424836887449befcbde55ca1ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10373,6 +10373,10 @@ PrefabInstance:
     - target: {fileID: 6357263699325571972, guid: 821b46f103c97e34e91edc8e1d562898, type: 3}
       propertyPath: m_Name
       value: Julien
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888990592072600925, guid: 821b46f103c97e34e91edc8e1d562898, type: 3}
+      propertyPath: m_Speed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7888990592072600925, guid: 821b46f103c97e34e91edc8e1d562898, type: 3}
       propertyPath: m_Height
