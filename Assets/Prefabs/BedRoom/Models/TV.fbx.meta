@@ -3,9 +3,29 @@ guid: 4f08ff7664f52004bbf9a4dbcbc37f32
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: 3259f776ef9563844a8d9a8bbb6426d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv_and_remote_aiStandard35SG
+    second: {fileID: 2100000, guid: 911caca7558733a4481ad22d63b06bfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv_and_remote_aiStandard37SG
+    second: {fileID: 2100000, guid: fafa1a912e1b77348b21e7b2cb408cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv_and_remote_phong4SG
+    second: {fileID: 2100000, guid: 7fce0a61a033f214881ba115f06c2aa4, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

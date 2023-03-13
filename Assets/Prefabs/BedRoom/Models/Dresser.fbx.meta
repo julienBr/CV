@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Tisch_3-03
+    second: {fileID: 2100000, guid: a785388d829ccb64b8f52cfaad6fedc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tische Wood
     second: {fileID: 2100000, guid: f24d1ce866c610f46960c37ca9f5c2d1, type: 2}
   materials:

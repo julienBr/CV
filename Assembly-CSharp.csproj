@@ -126,6 +126,7 @@
      <Compile Include="Assets\Scripts\SettingsWindow.cs" />
      <Compile Include="Assets\Scripts\Hover Effects\Hover\BounceHoverEffectSettings.cs" />
      <Compile Include="Assets\Scripts\Hover Effects\Hover\Base Types\HoverEffectSpace.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Hover Effects\Transform" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -139,7 +140,6 @@
      <Folder Include="Assets\Scripts\Hover Effects" />
      <Folder Include="Assets\Animations\Julien" />
      <Folder Include="Assets\Materials\Ground" />
-     <Folder Include="Assets\Materials\BedRoom\Walls\Walls" />
      <Folder Include="Assets\Scripts\Hover Effects\Core\Extensions" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -149,6 +149,7 @@
      <Folder Include="Assets\Scripts\Hover Effects\Math\Primitive Math" />
      <Folder Include="Assets\Animations\DialogueBox" />
      <Folder Include="Assets\Scripts\Hover Effects\Hover" />
+     <Folder Include="Assets\Materials\BedRoom\LedPanels" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Scenes\Room" />
      <Folder Include="Assets\Prefabs" />
@@ -164,7 +165,7 @@
      <Folder Include="Assets\Skybox" />
      <Folder Include="Assets\Scripts\Hover Effects\Objects" />
      <Folder Include="Assets\Prefabs\Terrain" />
-     <Folder Include="Assets\Materials\BedRoom\Walls\Walls\Floor" />
+     <Folder Include="Assets\Materials\BedRoom\Walls\Floor" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -176,12 +177,13 @@
      <Folder Include="Assets\Materials\BedRoom\Door" />
      <Folder Include="Assets\Scripts\Hover Effects\Resources" />
      <Folder Include="Assets\Prefabs\Player\Prefabs" />
+     <Folder Include="Assets\Materials\BedRoom\TV" />
      <Folder Include="Assets\Prefabs\Player" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Scripts\Hover Effects\Core" />
      <None Include="Assets\Scripts\Hover Effects\Resources\Shaders\SimpleColor.shader" />
      <Folder Include="Assets\Scripts\Hover Effects\Utilities" />
-     <Folder Include="Assets\Materials\BedRoom\Wood" />
+     <Folder Include="Assets\Materials\BedRoom\Dresser" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Scripts\Hover Effects\Core\Shapes" />
@@ -189,6 +191,7 @@
      <Folder Include="Assets\Materials\Julien" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\Materials\Textures" />
      <None Include="Assets\Scripts\Hover Effects\Resources\Shaders\GizmoSolidHandle.shader" />
      <Folder Include="Assets\Materials\BedRoom\Walls" />
      <Folder Include="Assets\Prefabs\BedRoom\Models" />
@@ -196,6 +199,7 @@
      <Folder Include="Assets\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Scripts\Hover Effects\Math" />
+     <Folder Include="Assets\Materials\BedRoom\Nightstand" />
      <Folder Include="Assets\Sprites\Languages" />
      <Folder Include="Assets\Scripts\Hover Effects\Resources\Shaders" />
      <Folder Include="Assets\Sprites\Commands" />
@@ -205,7 +209,7 @@
      <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <Folder Include="Assets\Materials\BedRoom\Walls\Walls\Wall" />
+     <Folder Include="Assets\Materials\BedRoom\Walls\Wall" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />

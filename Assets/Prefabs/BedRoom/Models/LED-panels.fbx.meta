@@ -3,7 +3,27 @@ guid: 0a088c680cfcae9449637cfdb43dc619
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Frosted #0
+    second: {fileID: 2100000, guid: 673033ef640b2074eb3cfc2f0dc6ed7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #148
+    second: {fileID: 2100000, guid: 381c691d75335a440b59c386e54c7dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2
+    second: {fileID: 2100000, guid: 93e6a2e5db620324da4daaa3f1508cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #54
+    second: {fileID: 2100000, guid: 8814587a638d04940abc1325c4332145, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
